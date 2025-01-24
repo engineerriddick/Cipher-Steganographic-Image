@@ -1,3 +1,4 @@
+![Banner](Cipher_Steganographic_Image_banner.jpg)
 # Cipher-Steganographic-Image
 This project serves as an introductory tool for those interested in understanding steganography and data hiding techniques. Created by an experienced cryptography engineer, this script demonstrates the basic principle of embedding text messages within image files. It is designed to provide a clear and accessible foundation for students, researchers, and enthusiasts who wish to explore the fascinating world of steganography, a concept rooted in covert communication techniques dating back to the wartime era.
 
@@ -16,6 +17,7 @@ The **Cipher-Steganographic-Image** script enables users to embed a text message
 - **Support for JPG and PNG**: Compatible with widely used image formats.
 - **Simple Concept**: Provides a basic approach for beginners to grasp the fundamentals of steganography.
 - **Extendable**: Serves as an idea for more advanced implementations.
+- **Note**: However, you should always keep in mind that the number of bytes will change.
 
 ---
 
@@ -51,7 +53,7 @@ Steganographic(image_path, cipher_text, output_path)
 
 ## 🖼️ Output
 
-The resulting steganographic image will be saved as `steganographic_img_cat.jpg`. The image will appear identical to the original when viewed, but the hidden text can be revealed using simple tools.
+The resulting steganographic image will be saved as `steganographic_img_cat.jpg`. The image will appear identical to the original when viewed, but the hidden text can be revealed using simple tools. However, please note that while the image appears the same, the number of bytes in the file will have changed.
 
 ---
 
